@@ -1,0 +1,21 @@
+{
+  "name": "toon-vs-json",
+  "version": "1.0.0",
+  "description": "Compare token usage between JSON and Toon formats for LLMs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "compare": "node src/compare.js",
+    "test": "node src/test.js",
+    "demo": "node demo.js"
+  },
+  "keywords": ["toon", "json", "token", "llm", "optimization"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tiktoken": "^1.0.15",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3"
+  }
+}
